@@ -1,0 +1,31 @@
+[33mcommit 004c3d1053e83f317b5c2d70ad6787009371d2c1[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: mert senkardesler <mertsenkardesler@yahoo.com.tr>
+Date:   Tue Aug 23 11:38:47 2022 +0300
+
+    project_0 eklendi
+
+[33mcommit 1173546f6ce343469f05f95601c439b323a06b6b[m
+Merge: 7d85866 115bfc0
+Author: mert senkardesler <mertsenkardesler@yahoo.com.tr>
+Date:   Mon Aug 22 22:27:30 2022 +0300
+
+    Merge branch 'main' of https://github.com/BARDAK1995/cs50_web into main
+    Demoed on windows
+
+[33mcommit 115bfc0e470bd2899ac7b6061f80837ec46aa214[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: mert senkardesler <mertvsl@MS.localdomain>
+Date:   Mon Aug 22 22:25:35 2022 +0300
+
+    python demo added
+
+[33mcommit 7d858664d1b16beba83f03ebf91417ed87dd57c2[m
+Author: mert senkardesler <mertsenkardesler@yahoo.com.tr>
+Date:   Mon Aug 22 22:09:40 2022 +0300
+
+    second deneme
+
+[33mcommit 7d08838c704368afe3706f9e2c6c5042dcf7aea4[m
+Author: mert senkardesler <mertsenkardesler@yahoo.com.tr>
+Date:   Mon Aug 22 22:02:27 2022 +0300
+
+    first commit
