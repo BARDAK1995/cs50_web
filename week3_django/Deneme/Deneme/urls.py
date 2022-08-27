@@ -19,5 +19,7 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     # if path it starts with hello ----adds all the urls from the app ilkapp entirely 
-    path('hello/', include("second_app.urls"))
+    path('hello/', include("second_app.urls")),
+    path('newyear/', include("newyear.urls")),
+    path('tasks/', include("tasks.urls"))
     ]

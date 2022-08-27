@@ -10,11 +10,16 @@ from django.http import HttpResponse
 def index(request):
     return render(request, "second_app/index.html")
 
-def brian(request):
-    return HttpResponse("Hello, Brian!")
+# def brian(request):
+#   return HttpResponse("Hello, Brian!")
 
-def david(request):
-    return HttpResponse("Hello, David!")
+# def david(request):
+#    return HttpResponse("Hello, David!")
+
+#def greet(request, name):
+#    return HttpResponse(f"Hello, {name.capitalize()}!")
 
 def greet(request, name):
-    return HttpResponse(f"Hello, {name.capitalize()}!")
+    return render(request, "second_app/greet.html", {
+        "name": name.capitalize()
+    })
