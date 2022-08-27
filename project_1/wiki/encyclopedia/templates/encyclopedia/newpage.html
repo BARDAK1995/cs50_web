@@ -6,15 +6,13 @@
 
 {% block body %}
     <h1>CREATE NEW PAGE</h1>
-    <form action="{% url 'new_page' %}" method="post"></form>
+    <form action="{% url 'new_page' %}" method="post">
         {% csrf_token %}
         <label for="title">Enter Title</label>
         <input type="text", name="title">
         <p><label for="markdown_txt">Enter Markdown input</label></p>
-        <textarea id="markdown_txt" name="markdown_txt" rows="4" cols="50">
-        </textarea>
-        <br>
-        <input type="submit" value="Submit">
+        <textarea id="markdown_txt" name="markdown_txt" rows="4" cols="50"></textarea>
+        <input type="submit" value="submit">
     </form>
 
 {% endblock %}
